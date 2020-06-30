@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+from z3 import *
+import re
+
+s = Solver()
+f = open("directions.txt", "r")
+directions = Int("directions_%s" (s for s in range(100)))
+print(directions)
+
+
+
+s.add(args)
